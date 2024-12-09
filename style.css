@@ -83,6 +83,11 @@ i {
 }
 
 /* header-section */
+
+.about, .skills, .experience{
+    background: #fffffff0;
+}
+
 .header-section, .about, .my-services, .skills, .experience {
     min-height: 100vh;
 
