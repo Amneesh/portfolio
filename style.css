@@ -29,6 +29,7 @@
 html,
 body,
 main {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     font-family: "Hind Madurai", sans-serif;
@@ -105,7 +106,7 @@ i {
 
 .header-video {
 
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     z-index: -1;
@@ -575,6 +576,7 @@ nav {
 }
 
 .panel {
+    overflow: hidden;
     img {
         width: 100px;
         height: 100px;
